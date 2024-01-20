@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hNhdfGLizWK88Soc7mvnXrpg4+QgzvUROQkxez9EeVQ=",
+  "Source": "FarmersApp.WebApi",
+  "BasePath": "_content/FarmersApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
