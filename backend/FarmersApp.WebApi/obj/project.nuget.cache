@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r6IYHjTjv2CeWNIRqtJN3NA/p9YZ0xrbP28oFxYyuFkibvLeNFNyM21eANbj2uFyFFJRiUc8KXSfpC+RxOqkmg==",
+  "dgSpecHash": "YQnN+vECRoq2T/i3cqvvulXTGrlTE0Or78+NFKSovBFuGcUHWECMul7Hrj4ytShIY6DTGKe7yWcQnMF+l5Fr+A==",
   "success": true,
-  "projectFilePath": "/home/leuel/projects/farmers-app/backend/backend/backend.csproj",
+  "projectFilePath": "/home/leuel/projects/farmers-app/backend/FarmersApp.WebApi/FarmersApp.WebApi.csproj",
   "expectedPackageFiles": [
     "/home/leuel/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/leuel/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

@@ -1242,11 +1242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/leuel/projects/farmers-app/backend/backend/backend.csproj",
-      "projectName": "backend",
-      "projectPath": "/home/leuel/projects/farmers-app/backend/backend/backend.csproj",
+      "projectUniqueName": "/home/leuel/projects/farmers-app/backend/FarmersApp.WebApi/FarmersApp.WebApi.csproj",
+      "projectName": "FarmersApp.WebApi",
+      "projectPath": "/home/leuel/projects/farmers-app/backend/FarmersApp.WebApi/FarmersApp.WebApi.csproj",
       "packagesPath": "/home/leuel/.nuget/packages/",
-      "outputPath": "/home/leuel/projects/farmers-app/backend/backend/obj/",
+      "outputPath": "/home/leuel/projects/farmers-app/backend/FarmersApp.WebApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/leuel/.nuget/NuGet/NuGet.Config"

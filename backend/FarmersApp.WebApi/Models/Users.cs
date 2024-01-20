@@ -1,7 +1,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace FarmersApi.Models;
+namespace FarmersApp.WebApi.Models;
 
 public class User
 {
