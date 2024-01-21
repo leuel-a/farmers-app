@@ -8,6 +8,9 @@ public class User
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
+    
+    [BsonElement("username")]
+    public string? Username { get; set; }
 
     [BsonElement("first_name")]
     public string? FirstName { get; set; }
@@ -18,18 +21,17 @@ public class User
     [BsonElement("email_address")]
     public string? EmailAddress { get; set; }
     
+    [BsonElement("role")]
+    public string? Role { get; set; }
+    
     [BsonElement("password")]
     public string? Password { get; set; }
     
     [BsonElement("created_at")]
+    [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
     public DateTimeOffset CreatedAt { get; set; }
     
     [BsonElement("updated_at")]
+    [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
     public DateTimeOffset UpdatedAt { get; set; }
-
-    public User()
-    {
-        CreatedAt = DateTimeOffset.UtcNow;
-        UpdatedAt = DateTimeOffset.UtcNow;
-    }
 }
