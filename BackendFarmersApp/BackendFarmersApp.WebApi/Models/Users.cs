@@ -8,9 +8,6 @@ public class User
     [BsonId]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
-    
-    [BsonElement("username")]
-    public string? Username { get; set; }
 
     [BsonElement("first_name")]
     public string? FirstName { get; set; }
@@ -25,7 +22,7 @@ public class User
     public string? Role { get; set; }
     
     [BsonElement("password")]
-    public string? Password { get; set; }
+    public string? PasswordHash { get; set; }
     
     [BsonElement("created_at")]
     [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
