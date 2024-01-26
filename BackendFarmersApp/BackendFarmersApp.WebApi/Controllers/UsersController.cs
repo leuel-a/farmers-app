@@ -1,5 +1,6 @@
 using BackendFarmersApp.WebApi.Models;
 using BackendFarmersApp.WebApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BackendFarmersApp.WebApi.Controllers;
@@ -14,8 +15,8 @@ public class UsersController : ControllerBase
     {
         _usersServices = usersServices;
     }
-
-    [HttpGet]
+    
+    [HttpGet("all")]
     public async Task<List<User>> GetUsersAsync()
     {
         return await _usersServices.GetUsersAsync();

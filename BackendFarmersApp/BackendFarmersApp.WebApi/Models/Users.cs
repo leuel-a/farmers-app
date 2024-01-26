@@ -26,9 +26,9 @@ public class User
     
     [BsonElement("created_at")]
     [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
-    public DateTimeOffset CreatedAt { get; set; }
+    public DateTime CreatedAt { get; set; }
     
     [BsonElement("updated_at")]
     [BsonDateTimeOptions(Kind = DateTimeKind.Utc)]
-    public DateTimeOffset UpdatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 }
